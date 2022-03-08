@@ -17,5 +17,25 @@ namespace Part_4___Random_Assignment
         {
             InitializeComponent();
         }
+
+        private void btnRandom_Click(object sender, EventArgs e)
+        {
+            int number = generator.Next(1,11);
+            lblRandom.Text = number + "";
+
+
+
+
+        }
+        private void btnRandom1_Click(object sender, EventArgs e)
+        {
+            Double number = generator.NextDouble();
+            lblRandom.Text = number + "";
+
+
+
+
+
+        }
     }
 }
