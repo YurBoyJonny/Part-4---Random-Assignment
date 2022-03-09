@@ -56,7 +56,7 @@
             this.btnRandomInteger.Name = "btnRandomInteger";
             this.btnRandomInteger.Size = new System.Drawing.Size(190, 44);
             this.btnRandomInteger.TabIndex = 0;
-            this.btnRandomInteger.Text = "Get Integer";
+            this.btnRandomInteger.Text = "GET INTEGER";
             this.btnRandomInteger.UseVisualStyleBackColor = false;
             this.btnRandomInteger.Click += new System.EventHandler(this.btnRandom_Click);
             // 
@@ -82,7 +82,7 @@
             this.btnRandomDouble.Name = "btnRandomDouble";
             this.btnRandomDouble.Size = new System.Drawing.Size(184, 45);
             this.btnRandomDouble.TabIndex = 2;
-            this.btnRandomDouble.Text = "Get Double";
+            this.btnRandomDouble.Text = "GET DOUBLE";
             this.btnRandomDouble.UseVisualStyleBackColor = false;
             this.btnRandomDouble.Click += new System.EventHandler(this.btnRandom1_Click);
             // 
@@ -94,9 +94,9 @@
             this.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl1.Location = new System.Drawing.Point(15, 23);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(434, 26);
+            this.lbl1.Size = new System.Drawing.Size(471, 26);
             this.lbl1.TabIndex = 3;
-            this.lbl1.Text = "Enter a minimum and maximum value";
+            this.lbl1.Text = "ENTER A MINIMUM AND MAXIMUM VALUE";
             // 
             // lblMin
             // 
