@@ -63,7 +63,7 @@
             // lblRandom
             // 
             this.lblRandom.AutoSize = true;
-            this.lblRandom.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblRandom.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lblRandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRandom.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRandom.Location = new System.Drawing.Point(35, 229);
@@ -92,7 +92,7 @@
             this.lbl1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbl1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl1.Location = new System.Drawing.Point(10, 18);
+            this.lbl1.Location = new System.Drawing.Point(15, 23);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(434, 26);
             this.lbl1.TabIndex = 3;
@@ -167,7 +167,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.Location = new System.Drawing.Point(20, 197);
             this.pictureBox2.Name = "pictureBox2";
