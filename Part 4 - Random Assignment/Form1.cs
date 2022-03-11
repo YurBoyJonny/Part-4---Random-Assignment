@@ -21,12 +21,8 @@ namespace Part_4___Random_Assignment
         private void btnRandom_Click(object sender, EventArgs e)
         {
 
-            int minInput1 = Convert.ToInt32(minInput);
-            int maxInput1 = Convert.ToInt32(maxInput);
 
-
-
-            int number = generator.Next(minInput1, maxInput1);
+            int number = generator.Next(minInput, maxInput);
             lblRandom.Text = number + "";
         }
         /////////////////////////////////////////////////////////////////// Get Double
