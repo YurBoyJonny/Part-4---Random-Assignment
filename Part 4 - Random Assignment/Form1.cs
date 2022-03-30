@@ -32,9 +32,6 @@ namespace Part_4___Random_Assignment
             int number = generator.Next(result1, result2 + 1);
             lblRandom.Text = number + "";
         }
-
-
-
 /////////////////////////////////////////////////////// Get Double ///////////////////////////////////////////////////////
         private void btnRandom1_Click(object sender, EventArgs e)
         {
@@ -69,12 +66,7 @@ namespace Part_4___Random_Assignment
                 double number1 = generator.NextDouble();
                 number1 = Math.Round(number1, rounded, MidpointRounding.AwayFromZero);
                 lblRandom.Text = number + number1 + "";
-
-
-
             }
         }
-
-
     }
 }
