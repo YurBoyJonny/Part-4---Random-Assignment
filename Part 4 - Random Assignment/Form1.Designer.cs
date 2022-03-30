@@ -36,14 +36,15 @@
             this.lblMax = new System.Windows.Forms.Label();
             this.minInput = new System.Windows.Forms.NumericUpDown();
             this.maxInput = new System.Windows.Forms.NumericUpDown();
-            this.txtDecimal = new System.Windows.Forms.TextBox();
             this.lblRounding = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtDecimal = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.minInput)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maxInput)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDecimal)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRandomInteger
@@ -68,7 +69,7 @@
             this.lblRandom.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRandom.Location = new System.Drawing.Point(35, 229);
             this.lblRandom.Name = "lblRandom";
-            this.lblRandom.Size = new System.Drawing.Size(70, 76);
+            this.lblRandom.Size = new System.Drawing.Size(69, 76);
             this.lblRandom.TabIndex = 1;
             this.lblRandom.Text = "0";
             // 
@@ -136,13 +137,6 @@
             this.maxInput.Size = new System.Drawing.Size(294, 20);
             this.maxInput.TabIndex = 7;
             // 
-            // txtDecimal
-            // 
-            this.txtDecimal.Location = new System.Drawing.Point(544, 58);
-            this.txtDecimal.Name = "txtDecimal";
-            this.txtDecimal.Size = new System.Drawing.Size(230, 20);
-            this.txtDecimal.TabIndex = 8;
-            // 
             // lblRounding
             // 
             this.lblRounding.AutoSize = true;
@@ -175,15 +169,22 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
+            // txtDecimal
+            // 
+            this.txtDecimal.Location = new System.Drawing.Point(558, 58);
+            this.txtDecimal.Name = "txtDecimal";
+            this.txtDecimal.Size = new System.Drawing.Size(216, 20);
+            this.txtDecimal.TabIndex = 12;
+            // 
             // RandomNumbers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtDecimal);
             this.Controls.Add(this.lblRandom);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblRounding);
-            this.Controls.Add(this.txtDecimal);
             this.Controls.Add(this.maxInput);
             this.Controls.Add(this.minInput);
             this.Controls.Add(this.lblMax);
@@ -198,6 +199,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.maxInput)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDecimal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,10 +215,10 @@
         private System.Windows.Forms.Label lblMax;
         private System.Windows.Forms.NumericUpDown minInput;
         private System.Windows.Forms.NumericUpDown maxInput;
-        private System.Windows.Forms.TextBox txtDecimal;
         private System.Windows.Forms.Label lblRounding;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.NumericUpDown txtDecimal;
     }
 }
 
